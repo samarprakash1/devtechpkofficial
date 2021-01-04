@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin: 20px 0 0 50px;
+    color: rgb(235, 64, 12);
+}
+b{
+    color: rgb(19, 29, 116);
+}
+.right{
+    margin: 20px 50px 0 0;
+}
+.right li{
+    display: inline;
+}
+.right a{
+    text-decoration: none;
+    color: rgb(21, 37, 37);
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.right a:hover{
+    color: #e04b14;
+}
+.right button{
+    background-color: rgb(235, 64, 12);
+    margin-left: 20px;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.right button:hover{
+    background-color: white;
+    color: rgb(235, 64, 12);
+    border: 1px solid #ff4500;
+    
+}
+.home{
+    display: flex;
+    height: 100vh;
+}
+.home img{
+    margin: 130px 0 0 100px;
+    width: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 8px 9px 7px rgb(94, 85, 89) ;
+}
+.hom-right{
+    margin: 130px 100px 0 200px;
+}
+.hom-right h3{
+    text-align: center;
+    margin-top: 10px;
+    color: #0f7758;
+}
+.hom-right h3:nth-child(1){
+    font-size: 25px;
+}
+.hom-right h3:nth-child(2){
+    font-size: 20px;
+    color: #144b3a;
+}
+.hom-right h3:nth-child(1){
+    font-size: 25px;
+}
+.hom-right  p{
+    text-align: justify;
+    margin-top: 10px;
+    color: #2c7560;
+}
+.fls{
+    background-color: rgb(21, 63, 77);
+    
+}
+
+.ftr{
+    display: flex;
+    padding: 20px 0 20px 0;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(21, 63, 77); */
+    
+   
+}
+
+ a{
+    text-decoration: none ;
+    color: aliceblue;
+    font-size: 13px;
+    
+}
+ul{
+    list-style-type: none;
+
+}
+.foot li{
+    margin-top: 10px;
+}
+a:hover{
+    color: #e04b14;
+}
+.fls h3{
+    margin: 0px 0 0 152px;
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 14px;
+}
+.fls p{
+    color: aliceblue;
+    margin: 5px 0 0 152px ;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+
